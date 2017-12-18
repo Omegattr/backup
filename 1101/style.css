@@ -1,0 +1,124 @@
+body{
+    
+    min-width:300px;
+    font-size: 16;
+    font-family: メイリオ;
+}
+
+.logo{position:absolute;
+    top :0px;
+    left :0px;
+    padding-left :10px;
+}
+.image{
+    height:100px;
+}
+
+
+/* ========ヘッダー======== */
+header{position:relative;
+    top :110px;
+    left :0px;
+    width :100%;
+    height :60px;
+    background-color: black;
+}
+
+
+.menu ul{
+    line-height :60px;
+}
+
+.menu ul li{
+    list-style : none;
+    padding-right :20px;
+    float :left;
+    font-size :18px;
+}
+.menu a{
+    color :white;
+    text-decoration: none;
+}
+
+
+/* ========メイン======== */
+.main{clear :both;
+    position:absolute;
+    top :180px;
+    width :100%;
+    padding: 0px 0px 0px 55px;
+    margin-top: 70px;
+    
+}
+.main-content{
+    float:left;
+    width: 60%;    
+}
+
+.content-title{
+    font-size: 24px;
+    border-bottom: 2px solid;
+    border-left:4px solid;
+    margin-bottom: 10px;
+}
+.bookstore{
+    width:100%;
+}
+
+/* ========サイドバー======== */
+.sidebar{     
+    float:left;
+    width: 30%;
+    margin: 0px 0px 0px 70px;
+}
+.sidebar a{
+    color:black;
+    font-size:18px;
+    text-decoration: none;
+}
+
+.recommend-title,.r-link-title,.Kategori-title{
+    font-size: 22px;
+    border-bottom:2px dotted;
+    border-bottom-color:dimgray;
+}
+.recommend-gallary,.r-link-gallary,.Kategori-gallary{
+    
+}
+
+/* ========サービス一覧======== */
+.service{clear :both;
+    width: 60%;
+    height:410px;
+    margin-top:30px;
+    padding:10 30 0 0;
+    background-color:darkgray;
+    
+}
+.service li{
+    width: 25%;
+    float:left;
+    list-style:none;
+}
+.service li a{
+    display: block;
+    padding: 5px;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    
+}
+.service img{
+   width:100%;
+   height:auto; 
+}
+/* ========コーピーライト======== */
+footer{
+    margin:25px 0px 16px 0px;
+    padding:1px 0px;
+    text-align: center;
+    color: white;
+    background: black;
+}
+
+

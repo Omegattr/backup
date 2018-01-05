@@ -1,0 +1,30 @@
+package person2;
+
+public class Test2 {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+
+/*
+		Person2 taro = new Person2();
+		taro.name="山田太郎";
+		taro.age=20;
+		System.out.println(taro.name);
+		System.out.println(taro.age);
+*/
+
+//Person プロジェクト
+		Person2 p = new Person2();
+
+		Person2 taro = new Person();
+		taro.name="taro";
+		taro.age=18;
+		System.out.plintln(taro.name);
+		System.out.plintln(taro.age);
+
+		Person2 jiro = new Person("jiro", 20);
+		System.out.plintln(jiro.name);
+		System.out.plintln(jiro.age);
+	}
+
+}
